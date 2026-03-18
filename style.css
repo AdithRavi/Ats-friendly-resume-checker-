@@ -1,0 +1,53 @@
+:root {
+    --primary: #0066ff;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --text: #1e293b;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--bg);
+    margin: 0; color: var(--text);
+}
+
+.navbar {
+    padding: 1rem 5%; background: white; border-bottom: 1px solid #e2e8f0;
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+.logo { font-weight: 800; font-size: 1.2rem; }
+.logo span { color: var(--primary); }
+
+.container { max-width: 1000px; margin: 3rem auto; padding: 0 20px; }
+.checker-header { text-align: center; margin-bottom: 3rem; }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.input-card label { display: block; font-weight: 700; margin-bottom: 0.5rem; font-size: 0.9rem; }
+
+textarea {
+    width: 100%; height: 300px; padding: 1rem; border: 1px solid #e2e8f0;
+    border-radius: 12px; resize: none; font-family: inherit; box-sizing: border-box;
+}
+
+.scan-btn {
+    display: block; width: 100%; margin-top: 2rem; padding: 1rem;
+    background: var(--primary); color: white; border: none;
+    border-radius: 12px; font-weight: 800; cursor: pointer; font-size: 1.1rem;
+}
+
+.result-section {
+    margin-top: 3rem; background: white; padding: 2rem; border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 3rem;
+}
+
+.score-circle {
+    text-align: center; border: 8px solid var(--primary); width: 120px;
+    height: 120px; border-radius: 50%; display: flex; flex-direction: column;
+    justify-content: center; font-weight: 800; font-size: 1.5rem;
+}
+
+.score-circle p { font-size: 0.7rem; margin: 0; font-weight: 400; }
+
+.keyword-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.tag { background: #fee2e2; color: #ef4444; padding: 4px 10px; border-radius: 6px; font-size: 0.8rem; font-weight: 600; }
