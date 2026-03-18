@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Scan Pro | Resume Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ATS<span>SCAN</span></div>
+        <div class="user-info">Engineering Edition</div>
+    </nav>
+
+    <main class="container">
+        <header class="checker-header">
+            <h1>Resume Match Intelligence</h1>
+            <p>Compare your resume against MNC job descriptions using keyword frequency analysis.</p>
+        </header>
+
+        <div class="grid">
+            <div class="input-card">
+                <label>Paste Resume Text</label>
+                <textarea id="resumeText" placeholder="Paste your resume content here..."></textarea>
+            </div>
+            <div class="input-card">
+                <label>Paste Job Description</label>
+                <textarea id="jdText" placeholder="Paste the job requirements here..."></textarea>
+            </div>
+        </div>
+
+        <button class="scan-btn" onclick="runATSCheck()">Analyze Match Score</button>
+
+        <div id="resultArea" class="result-section" style="display: none;">
+            <div class="score-circle">
+                <span id="scoreNum">0</span>%
+                <p>Match Score</p>
+            </div>
+            <div class="feedback">
+                <h3>Missing Keywords:</h3>
+                <div id="missingKeywords" class="keyword-tags"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
