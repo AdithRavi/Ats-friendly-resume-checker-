@@ -24,8 +24,7 @@ Most big companies (Accenture, Google, TATA) use automated filters to rank candi
 ### 🤝 Let's Connect
 I'm always looking for ways to use tech to solve "real-world" career hurdles. Let's talk!
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0066ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adithravii.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adithravi)
+
 
 **Adith Ravi** *Mechanical Engineering Student @ GEC Barton Hill*
 [![Portfolio](https://img.shields.io/badge/Portfolio-0066ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adithravi.github.io/adithravii.github.io/)
